@@ -49,3 +49,7 @@ nav ul li a:hover{
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
+
+nav ul li.text a{
+    text-decoration: none !important;
+}
