@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
 *,
 *:before,
 *:after {
@@ -19,50 +19,6 @@ body {
 
 
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-  background-color: rgb(0, 115, 188);
-  flex-wrap: wrap;
-  min-height: 4vh;
-
-}
-
-nav #logo {
-    max-height: 4rem;
-    width: auto;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-    align-items: flex-start;
-}
-
-nav ul li {
-    padding:0em 1em;
-    font-size: 1em;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: rgb(231, 201, 81);
-
-}
-
-nav ul li a:hover{
-    color:rgb(255, 92, 56);
-}
-
-.text {
-    font-family: "Odin", sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
 
 .container {
 }
@@ -85,9 +41,7 @@ nav ul li a:hover{
     filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=2.5);
 }
 
-.showcase{
 
-}
 
 .Nord-img{
     background-image: url("../img/merNord.jpg");
@@ -96,6 +50,7 @@ nav ul li a:hover{
     width: 33.3%;
     background-size: cover;
     background-position: center;
+    position: relative;
 
 }
 
@@ -107,6 +62,7 @@ nav ul li a:hover{
     width: 33.3%;
     background-size: cover;
     background-position: center;
+    position: relative;
 
 }
 
@@ -115,6 +71,8 @@ nav ul li a:hover{
     width: 33.4%;
     background-size: cover;
     background-position: center;
+    position: relative;
+
 }
 
 .secondSection{
@@ -158,4 +116,75 @@ nav ul li a:hover{
 
 .texte-surfer .grospadding-text .text{
     font-size: 10px;
+}
+
+.hlink-Nord{
+    width: 100%;
+    display: block;
+    height: 100%;
+    background-color: rgba(36, 62, 206, 0.0);
+
+
+}
+
+.hlink-Nord:hover{
+    background-color: rgba(26, 28, 36, 0.6);
+
+
+}
+.hlink-Sud:hover{
+    background-color: rgba(26, 28, 36, 0.6);
+
+
+}
+.hlink-West:hover{
+    background-color: rgba(26, 28, 36, 0.6);
+
+
+}
+
+.hlink-Sud{
+    width: 100%;
+    display: block;
+    height: 100%;
+    background-color: rgba(36, 62, 206, 0.0);
+}
+.hlink-West{
+    width: 100%;
+    display: block;
+    height: 100%;
+    background-color: rgba(36, 62, 206, 0.0);
+}
+
+.showcase.Nord-img p{
+    position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: rgb(0, 115, 188);
+    transform: translate(-50%, -50%); 
+    font-weight: 400;
+}
+.showcase.West-img p{
+    position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color:rgb(0, 115, 188);
+    transform: translate(-50%, -50%); 
+    font-weight: 400;
+}
+.showcase.Sud-img p{
+    position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, -50%); 
+
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color:rgb(0, 115, 188);
+    font-weight: 400;
 }
