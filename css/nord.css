@@ -59,14 +59,14 @@ body {
 }
 
 .plage.selection1ouest{
-    background-image: url("../img/Biscarrosse.png");
+    background-image: url("../img/biscarrosse.png");
     background-size: cover;
     border-right: rgb(42,42,46) solid;
 
 
 }
 .plage.selection2ouest{
-    background-image: url("../img/Hossegor.png");
+    background-image: url("../img/ossegor.png");
     background-size: cover;
     border-right: rgb(42,42,46) solid;
 
