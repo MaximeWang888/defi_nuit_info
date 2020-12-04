@@ -18,64 +18,104 @@ body {
 
 
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-  background-color: rgb(0, 115, 188);
-  flex-wrap: wrap;
-  min-height: 4rem;
-
-}
-
-nav #logo {
-    max-height: 7rem;
-    width: auto;
-}
-#logo img{
-    height : 5rem;
-    width : auto;
-}
-nav ul {
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-    align-items: flex-start;
-}
-
-nav ul li {
-    padding:0em 1em;
-    font-size: 1em;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: rgb(231, 201, 81);
-
-}
-
-nav ul li a:hover{
-    color:rgb(255, 92, 56);
-}
-
-.text {
-    font-family: "Odin", sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
 
 #entete{
-    height : 40%;
-    width : 100% ;
-    background-image : ;
+    height : 20em;
     margin : 2% 2% 2% 2%;
+    display: flex;
+    border-radius: 1px;
+    border: rgb(42,42,46) solid;}
+
+.plage{
+    width: 25%;
+}
+
+.plage.selection1{
+    background-image: url("../img/plgCalais.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection2{
+    background-image: url("../img/plgBerk.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection3{
+    background-image: url("../img/plgDunk.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection4{
+    background-image: url("../img/plgW.png");
+    background-size: cover;
+
+
+}
+
+.plage.selection1ouest{
+    background-image: url("../img/Biscarrosse.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection2ouest{
+    background-image: url("../img/Hossegor.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection3ouest{
+    background-image: url("../img/biarritz.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection4ouest{
+    background-image: url("../img/caracan.png");
+    background-size: cover;
+
+
+}
+
+.plage.selection1sud{
+    background-image: url("../img/pavalas.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection2sud{
+    background-image: url("../img/villefranche.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection3sud{
+    background-image: url("../img/canet.png");
+    background-size: cover;
+    border-right: rgb(42,42,46) solid;
+
+
+}
+.plage.selection4sud{
+    background-image: url("../img/marseille.png");
+    background-size: cover;
+
+
 }
 
 #selection1{
     float : left;
-    background-image : ;
     margin : 0;
     border : solid black 0.1em;
     padding : 0 0 0 0;
@@ -83,7 +123,6 @@ nav ul li a:hover{
 
 #selection2{
     float : left;
-    background-image : ;
     margin : 0;
     border : solid black 0.1em;
     padding : 0 0 0 0;
@@ -91,7 +130,6 @@ nav ul li a:hover{
 
 #selection3{
     float : left;
-    background-image : ;
     margin : 0;
     border : solid black 0.1em;
     padding : 0 0 0 0;
@@ -99,14 +137,12 @@ nav ul li a:hover{
 
 #selection4{
     float : left;
-    background-image : ;
     margin : 0;
     border : solid black 0.1em;
     padding : 0 0 0 0;
 }
 #selection5{
     float : left;
-    background-image : ;
     margin : 0;
     border : solid black 0.1em;
     padding : 0 0 0 0;

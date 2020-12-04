@@ -16,6 +16,10 @@ nav #logo {
 nav a{
     margin-left: 0.5em;
 }
+
+ul {
+    margin-bottom:0;
+}
   
 nav ul {
     display: flex;

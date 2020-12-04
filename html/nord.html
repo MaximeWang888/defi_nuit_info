@@ -2,7 +2,7 @@
 <html>
     <head>
 		<meta charset="utf-8">
-        <title> SURFRIDER </title>
+        <title>Plages du Nord</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
         <!-- mobile specific info ... mobile specify windows size to 800/900 whereas device-width is less in general, resulting in small texte etc.- those meta correct this... -->
@@ -10,62 +10,35 @@
         <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
         <!-- end mobile specific info -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css"  href="nord.css" />
+		<link rel="stylesheet" type="text/css"  href="../css/nord.css" />
+		<link rel="stylesheet" href="../css/nav.css">
+
 
     </head>
     <body>
 		<div id="globale">
-			<header> 
-				<nav>
-				   <div id="logo"> 
-						<img src="./Image/requin.png" />
-				   </div>
-				   <div id="onglet">
-						<ul>
-							<li class="text"><a href="#">Accueil</a></li>
-							<li class="text"><a href="#">Spots Nord</a></li>
-							<li class="text"><a href="#">Spot Sud</a></li>
-							<li class="text"><a href="#">Spot Ouest</a></li>
-							<li class="text"><a href="#">Formulaire</a></li>
-						</ul>
-					 </div
-				</nav>	
-			</header>
+			<nav>
+
+				<a href="../index.html"><img id="logo" src="../img/logo.png" alt="Logo"/></a>
+				<ul>
+					<li class="text"><a href="../index.html">Accueil</a></li>
+					<li class="text"><a href="./nord.html">Spots Nord</a></li>
+					<li class="text"><a href="./sud.html">Spots Sud</a></li>
+					<li class="text"><a href="./ouest.html">Spots Ouest</a></li>
+					<li class="text"><a href="./form.html">Formulaire</a></li>
+					
+				</ul>
+	
+				
+			</nav>
 			
 			<div id="entete">
-			        <center><img src="./Image/merNord.png" /></center>
-				<br/>
-				<center>	<h3><strong>Les spots de surf les plus célèbres dans le nord</strong></h3></center>
-				
+				<div class="plage selection1"></div>
+				<div class="plage selection2"></div>
+				<div class="plage selection3"></div>
+				<div class="plage selection4"></div>
 			</div>
-				 <div id="choix" > 
-					<div id ="selection1">
-					    
-					    <img src="./Image/plgCalais.png" />
-					    
-						<center><p>Plage de Calais</p></center>
-					</div>
-					<div id ="selection2">
-					    <img src="./Image/plgBerk.png" />
-						<center><a href="#PlageB"><p>Berck-Sur-Mer</p></a></center>
-					</div>
-					<div id ="selection3">
-					   <img src="./Image/plgDunk.png" />
-						<center><a href="#PlageD"><p>Dunkerque</p></a></center>
-					</div>
-					<div id ="selection4">
-					    <img src="./Image/plgW.png" />
-						<center><a href="#PlageW"><p>Plage de Wissant</p></a></center>
-					</div>	
-					<div id ="selection5">
-					    <img src="./Image/surfer.png" />
-						<center><p>Ressenti des watermans aux Nord </p></center>
 
-					
-					</div>	
-					<br/>
-					<br/>
-			</div>
 		    
 			<div id ="parg">
 				<article> 
@@ -81,7 +54,7 @@
 							</div>
 							<div id ="tableau" class="col-md-6">
 							    <h6> Meteo à la plage de Calais : </h6>
-								<img src="./Image/meteoCalais.png" />
+								<img src="../img/meteoCalais.png" />
 							</div>  
 							<br/>
 							<div id="meteo" class="col-md-6">
@@ -119,7 +92,7 @@
 							</div>
 							<div id ="tableau" class="col-md-6">
 								 <h6> Meteo à la plage de Berk-Sur-Mer : </h6>
-								<img src="./Image/meteoBrek.png" />
+								<img src="../img/meteoBrek.png" />
 							</div>  
 							<div id="meteo" class="col-md-6">
 							    <br/>
@@ -155,7 +128,7 @@
 							</div>
 							<div id ="tableau" class="col-md-6">
 								 <h6> Meteo à la plage de Dunkerque : </h6>
-								<img src="./Image/meteoDunk.png" />
+								<img src="../img/meteoDunk.png" />
 							</div>  
 							<div id="meteo" class="col-md-6">
 							    <br/>
@@ -191,7 +164,7 @@
 							</div>
 							<div id ="tableau" class="col-md-6">
 								 <h6> Meteo à la plage de Wissant : </h6>
-								<img src="./Image/meteoW.png" />
+								<img src="../img/meteoW.png" />
 								
 							</div>  
 							<div id="meteo" class="col-md-6">
